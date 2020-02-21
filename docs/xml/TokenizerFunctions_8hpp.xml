@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="TokenizerFunctions_8hpp" kind="file" language="C++">
+    <compoundname>TokenizerFunctions.hpp</compoundname>
+    <includes local="no">random</includes>
+    <includes local="no">vector</includes>
+    <includes refid="StopWatch_8hpp" local="yes">StopWatch.hpp</includes>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <includedby refid="StopWatch_8cpp" local="yes">StopWatch.cpp</includedby>
+    <includedby refid="TokenizerFunctions_8cpp" local="yes">TokenizerFunctions.cpp</includedby>
+    <incdepgraph>
+      <node id="71">
+        <label>StopWatch.hpp</label>
+        <link refid="StopWatch_8hpp_source"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>random</label>
+      </node>
+      <node id="70">
+        <label>vector</label>
+      </node>
+      <node id="68">
+        <label>TokenizerFunctions.hpp</label>
+        <link refid="TokenizerFunctions_8hpp"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>chrono</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="TokenizerFunctions_8hpp_1a3f593089c07346beb5ca173092f11dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LineToTokens</definition>
+        <argsstring>(const string &amp;line, vector&lt; string &gt; &amp;tokens)</argsstring>
+        <name>LineToTokens</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>vector&lt; string &gt; &amp;</type>
+          <declname>tokens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TokenizerFunctions.hpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="TokenizerFunctions_8hpp_1a4d0186bea513f49037e690ff6c63a33a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReadLine</definition>
+        <argsstring>(istream &amp;is, vector&lt; string &gt; &amp;tokens, vector&lt; pair&lt; int, int &gt;&gt; &amp;linecols)</argsstring>
+        <name>ReadLine</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>vector&lt; string &gt; &amp;</type>
+          <declname>tokens</declname>
+        </param>
+        <param>
+          <type>vector&lt; pair&lt; int, int &gt;&gt; &amp;</type>
+          <declname>linecols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TokenizerFunctions.hpp" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="TokenizerFunctions_8hpp_1a56238aa42272ccdac11f4c7e83cfe79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrintTokens</definition>
+        <argsstring>(ostream &amp;os, const vector&lt; string &gt; &amp;tokens, const vector&lt; pair&lt; int, int &gt;&gt; &amp;linecols)</argsstring>
+        <name>PrintTokens</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const vector&lt; string &gt; &amp;</type>
+          <declname>tokens</declname>
+        </param>
+        <param>
+          <type>const vector&lt; pair&lt; int, int &gt;&gt; &amp;</type>
+          <declname>linecols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TokenizerFunctions.hpp" line="30" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>TokenizerFunctions.hpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>CS<sp/>202</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>February<sp/>15,<sp/>2020</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Bryan<sp/>Beus</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Header<sp/>definition<sp/>file</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__TIMEIT_FUNC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__TIMEIT_FUNC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;StopWatch.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>std::vector;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>std::string;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>std::istream;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>std::pair;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>std::ostream;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Convert<sp/>lines<sp/>to<sp/>tokens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>LineToTokens(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>line,<sp/>vector&lt;string&gt;&amp;<sp/>tokens);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Read<sp/>lines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReadLine(istream&amp;<sp/>is,<sp/>vector&lt;string&gt;&amp;<sp/>tokens,<sp/>vector&lt;pair&lt;int,<sp/>int&gt;&gt;&amp;<sp/>linecols);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Print<sp/>tokens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrintTokens(ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;string&gt;&amp;<sp/>tokens,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;pair&lt;int,<sp/>int&gt;&gt;&amp;<sp/>linecols);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="TokenizerFunctions.hpp"/>
+  </compounddef>
+</doxygen>

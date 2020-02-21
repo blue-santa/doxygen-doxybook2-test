@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classStopWatch" kind="class"><name>StopWatch</name>
+    <member refid="classStopWatch_1a2f5e7177c54b838d288535b024ecc7b3" kind="variable"><name>_start_time</name></member>
+    <member refid="classStopWatch_1ae83183cb74a75c1943a6d9f54dc6521e" kind="variable"><name>_finish_time</name></member>
+    <member refid="classStopWatch_1a486fad972072dfaf7787bf2c11939b06" kind="variable"><name>_dur</name></member>
+    <member refid="classStopWatch_1ad715945060eeb23baa3c036ad19b1edb" kind="function"><name>StopWatch</name></member>
+    <member refid="classStopWatch_1a4d11f9e0d4c77c8df78313e9e0643fca" kind="function"><name>startClock</name></member>
+    <member refid="classStopWatch_1a2bf9c1940bc13449bace7be4626d78ec" kind="function"><name>captureFinishTime</name></member>
+    <member refid="classStopWatch_1afe6f7fc75f5ce4f2901383e1f6e020e8" kind="function"><name>reportFinishTime</name></member>
+    <member refid="classStopWatch_1ae49d0704410ca4e30be49ba9e471bc3f" kind="function"><name>reportRawTimes</name></member>
+  </compound>
+  <compound refid="structValue" kind="struct"><name>Value</name>
+    <member refid="structValue_1aae3d3accff785db290710b8475251775" kind="variable"><name>title</name></member>
+    <member refid="structValue_1afcdc88ae3a5935947696704150e154fd" kind="variable"><name>line_count</name></member>
+    <member refid="structValue_1a84f78f7074a5bbefcc5133e60edb6685" kind="variable"><name>par_count</name></member>
+    <member refid="structValue_1ae519294be41eb730d31d0b4123dee2ab" kind="variable"><name>word_count</name></member>
+    <member refid="structValue_1ac353afa54a9674eb24f7d028ea6b7287" kind="variable"><name>char_count</name></member>
+    <member refid="structValue_1a6c4e7b71cbac186ef94edf7fc81fbe6e" kind="variable"><name>total_change_count</name></member>
+    <member refid="structValue_1ab62780d112b99503bb67b5b4220a54b8" kind="function"><name>Value</name></member>
+    <member refid="structValue_1a12f446c1de93ebcffa83b792434a6d45" kind="function"><name>setTitle</name></member>
+    <member refid="structValue_1abcfa5f07be1a11fc23cb77ed38361c60" kind="function"><name>countWords</name></member>
+    <member refid="structValue_1a9750bd014214587c5adeb7af03c3e844" kind="function"><name>setCount</name></member>
+    <member refid="structValue_1a9a07ab329fd770cda9a615dfa3387ebf" kind="function"><name>reportValue</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1afb114671530177cddac98d4256c5ccfe" kind="function"><name>getLineInput</name></member>
+    <member refid="main_8cpp_1a1c03069360f1f90a556eb537e0ff8a72" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="Miscellaneous_8cpp" kind="file"><name>Miscellaneous.cpp</name>
+    <member refid="Miscellaneous_8cpp_1aff6c831918692405e75fc55c43424304" kind="function"><name>clearConsole</name></member>
+    <member refid="Miscellaneous_8cpp_1a636fd49cdda0b92e7ab99db1ef1c6aaf" kind="function"><name>waitForContinue</name></member>
+    <member refid="Miscellaneous_8cpp_1a2d7645aa1c799044da815dd98cf54d46" kind="function"><name>capture_user_input</name></member>
+    <member refid="Miscellaneous_8cpp_1aae8e4369bbac050311929327d8bffa51" kind="function"><name>testUserInput</name></member>
+  </compound>
+  <compound refid="Miscellaneous_8hpp" kind="file"><name>Miscellaneous.hpp</name>
+    <member refid="Miscellaneous_8hpp_1aff6c831918692405e75fc55c43424304" kind="function"><name>clearConsole</name></member>
+    <member refid="Miscellaneous_8hpp_1a636fd49cdda0b92e7ab99db1ef1c6aaf" kind="function"><name>waitForContinue</name></member>
+    <member refid="Miscellaneous_8hpp_1a2d7645aa1c799044da815dd98cf54d46" kind="function"><name>capture_user_input</name></member>
+    <member refid="Miscellaneous_8hpp_1aae8e4369bbac050311929327d8bffa51" kind="function"><name>testUserInput</name></member>
+  </compound>
+  <compound refid="StopWatch_8cpp" kind="file"><name>StopWatch.cpp</name>
+  </compound>
+  <compound refid="StopWatch_8hpp" kind="file"><name>StopWatch.hpp</name>
+  </compound>
+  <compound refid="TokenizerFunctions_8cpp" kind="file"><name>TokenizerFunctions.cpp</name>
+    <member refid="TokenizerFunctions_8cpp_1a60001c8efc1190c4199f1bb9da2f3238" kind="function"><name>ltrim</name></member>
+    <member refid="TokenizerFunctions_8cpp_1a60eacbf8f4d96a69446860343214629c" kind="function"><name>rtrim</name></member>
+    <member refid="TokenizerFunctions_8cpp_1a7cbd7ff4d902bcb529347257e773defe" kind="function"><name>trim</name></member>
+    <member refid="TokenizerFunctions_8cpp_1a1b26550fa62c710991c04084af773d88" kind="function"><name>LineToTokens</name></member>
+    <member refid="TokenizerFunctions_8cpp_1a8747afc115ef9d31cb2d3b79e2b1a4de" kind="function"><name>ReadLine</name></member>
+    <member refid="TokenizerFunctions_8cpp_1a28c62315ecaeeb2ab3e2b64defddbf1e" kind="function"><name>PrintTokens</name></member>
+  </compound>
+  <compound refid="TokenizerFunctions_8hpp" kind="file"><name>TokenizerFunctions.hpp</name>
+    <member refid="TokenizerFunctions_8hpp_1a3f593089c07346beb5ca173092f11dab" kind="function"><name>LineToTokens</name></member>
+    <member refid="TokenizerFunctions_8hpp_1a4d0186bea513f49037e690ff6c63a33a" kind="function"><name>ReadLine</name></member>
+    <member refid="TokenizerFunctions_8hpp_1a56238aa42272ccdac11f4c7e83cfe79f" kind="function"><name>PrintTokens</name></member>
+  </compound>
+  <compound refid="Value_8cpp" kind="file"><name>Value.cpp</name>
+  </compound>
+  <compound refid="Value_8hpp" kind="file"><name>Value.hpp</name>
+  </compound>
+</doxygenindex>

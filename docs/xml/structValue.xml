@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structValue" kind="struct" language="C++" prot="public">
+    <compoundname>Value</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structValue_1aae3d3accff785db290710b8475251775" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Value::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="21" column="1" bodyfile="Value.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structValue_1afcdc88ae3a5935947696704150e154fd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Value::line_count</definition>
+        <argsstring></argsstring>
+        <name>line_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="22" column="1" bodyfile="Value.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structValue_1a84f78f7074a5bbefcc5133e60edb6685" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Value::par_count</definition>
+        <argsstring></argsstring>
+        <name>par_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="23" column="1" bodyfile="Value.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structValue_1ae519294be41eb730d31d0b4123dee2ab" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Value::word_count</definition>
+        <argsstring></argsstring>
+        <name>word_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="24" column="1" bodyfile="Value.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structValue_1ac353afa54a9674eb24f7d028ea6b7287" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Value::char_count</definition>
+        <argsstring></argsstring>
+        <name>char_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="25" column="1" bodyfile="Value.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structValue_1a6c4e7b71cbac186ef94edf7fc81fbe6e" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Value::total_change_count</definition>
+        <argsstring></argsstring>
+        <name>total_change_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="26" column="1" bodyfile="Value.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structValue_1ab62780d112b99503bb67b5b4220a54b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Value::Value</definition>
+        <argsstring>(string &amp;filename)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="29" column="1" bodyfile="Value.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="structValue_1a12f446c1de93ebcffa83b792434a6d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Value::setTitle</definition>
+        <argsstring>(string &amp;filename)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="32" column="1" bodyfile="Value.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structValue_1abcfa5f07be1a11fc23cb77ed38361c60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Value::countWords</definition>
+        <argsstring>(string const &amp;str)</argsstring>
+        <name>countWords</name>
+        <param>
+          <type>string const &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="35" column="1" bodyfile="Value.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="structValue_1a9750bd014214587c5adeb7af03c3e844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Value::setCount</definition>
+        <argsstring>(string &amp;filename)</argsstring>
+        <name>setCount</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="38" column="1" bodyfile="Value.cpp" bodystart="53" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="structValue_1a9a07ab329fd770cda9a615dfa3387ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Value::reportValue</definition>
+        <argsstring>()</argsstring>
+        <name>reportValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Value.hpp" line="41" column="1" bodyfile="Value.cpp" bodystart="80" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="structValue"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>title</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Value.hpp" line="18" column="1" bodyfile="Value.hpp" bodystart="18" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structValue_1ac353afa54a9674eb24f7d028ea6b7287" prot="public" virt="non-virtual"><scope>Value</scope><name>char_count</name></member>
+      <member refid="structValue_1abcfa5f07be1a11fc23cb77ed38361c60" prot="public" virt="non-virtual"><scope>Value</scope><name>countWords</name></member>
+      <member refid="structValue_1afcdc88ae3a5935947696704150e154fd" prot="public" virt="non-virtual"><scope>Value</scope><name>line_count</name></member>
+      <member refid="structValue_1a84f78f7074a5bbefcc5133e60edb6685" prot="public" virt="non-virtual"><scope>Value</scope><name>par_count</name></member>
+      <member refid="structValue_1a9a07ab329fd770cda9a615dfa3387ebf" prot="public" virt="non-virtual"><scope>Value</scope><name>reportValue</name></member>
+      <member refid="structValue_1a9750bd014214587c5adeb7af03c3e844" prot="public" virt="non-virtual"><scope>Value</scope><name>setCount</name></member>
+      <member refid="structValue_1a12f446c1de93ebcffa83b792434a6d45" prot="public" virt="non-virtual"><scope>Value</scope><name>setTitle</name></member>
+      <member refid="structValue_1aae3d3accff785db290710b8475251775" prot="public" virt="non-virtual"><scope>Value</scope><name>title</name></member>
+      <member refid="structValue_1a6c4e7b71cbac186ef94edf7fc81fbe6e" prot="public" virt="non-virtual"><scope>Value</scope><name>total_change_count</name></member>
+      <member refid="structValue_1ab62780d112b99503bb67b5b4220a54b8" prot="public" virt="non-virtual"><scope>Value</scope><name>Value</name></member>
+      <member refid="structValue_1ae519294be41eb730d31d0b4123dee2ab" prot="public" virt="non-virtual"><scope>Value</scope><name>word_count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

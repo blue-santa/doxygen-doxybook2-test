@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classStopWatch" kind="class" language="C++" prot="public">
+    <compoundname>StopWatch</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classStopWatch_1a2f5e7177c54b838d288535b024ecc7b3" prot="private" static="no" mutable="no">
+        <type>std::chrono::high_resolution_clock::time_point</type>
+        <definition>std::chrono::high_resolution_clock::time_point StopWatch::_start_time</definition>
+        <argsstring></argsstring>
+        <name>_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="18" column="1" bodyfile="StopWatch.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStopWatch_1ae83183cb74a75c1943a6d9f54dc6521e" prot="private" static="no" mutable="no">
+        <type>std::chrono::high_resolution_clock::time_point</type>
+        <definition>std::chrono::high_resolution_clock::time_point StopWatch::_finish_time</definition>
+        <argsstring></argsstring>
+        <name>_finish_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="19" column="1" bodyfile="StopWatch.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classStopWatch_1a486fad972072dfaf7787bf2c11939b06" prot="private" static="no" mutable="no">
+        <type>std::chrono::duration&lt; double &gt;</type>
+        <definition>std::chrono::duration&lt;double&gt; StopWatch::_dur</definition>
+        <argsstring></argsstring>
+        <name>_dur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="20" column="1" bodyfile="StopWatch.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classStopWatch_1ad715945060eeb23baa3c036ad19b1edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StopWatch::StopWatch</definition>
+        <argsstring>()</argsstring>
+        <name>StopWatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="25" column="1" bodyfile="StopWatch.cpp" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classStopWatch_1a4d11f9e0d4c77c8df78313e9e0643fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopWatch::startClock</definition>
+        <argsstring>()</argsstring>
+        <name>startClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="28" column="1" bodyfile="StopWatch.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classStopWatch_1a2bf9c1940bc13449bace7be4626d78ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopWatch::captureFinishTime</definition>
+        <argsstring>()</argsstring>
+        <name>captureFinishTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="31" column="1" bodyfile="StopWatch.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classStopWatch_1afe6f7fc75f5ce4f2901383e1f6e020e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double StopWatch::reportFinishTime</definition>
+        <argsstring>()</argsstring>
+        <name>reportFinishTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="34" column="1" bodyfile="StopWatch.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classStopWatch_1ae49d0704410ca4e30be49ba9e471bc3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StopWatch::reportRawTimes</definition>
+        <argsstring>()</argsstring>
+        <name>reportRawTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StopWatch.hpp" line="37" column="1" bodyfile="StopWatch.cpp" bodystart="53" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="StopWatch.hpp" line="14" column="1" bodyfile="StopWatch.hpp" bodystart="14" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classStopWatch_1a486fad972072dfaf7787bf2c11939b06" prot="private" virt="non-virtual"><scope>StopWatch</scope><name>_dur</name></member>
+      <member refid="classStopWatch_1ae83183cb74a75c1943a6d9f54dc6521e" prot="private" virt="non-virtual"><scope>StopWatch</scope><name>_finish_time</name></member>
+      <member refid="classStopWatch_1a2f5e7177c54b838d288535b024ecc7b3" prot="private" virt="non-virtual"><scope>StopWatch</scope><name>_start_time</name></member>
+      <member refid="classStopWatch_1a2bf9c1940bc13449bace7be4626d78ec" prot="public" virt="non-virtual"><scope>StopWatch</scope><name>captureFinishTime</name></member>
+      <member refid="classStopWatch_1afe6f7fc75f5ce4f2901383e1f6e020e8" prot="public" virt="non-virtual"><scope>StopWatch</scope><name>reportFinishTime</name></member>
+      <member refid="classStopWatch_1ae49d0704410ca4e30be49ba9e471bc3f" prot="public" virt="non-virtual"><scope>StopWatch</scope><name>reportRawTimes</name></member>
+      <member refid="classStopWatch_1a4d11f9e0d4c77c8df78313e9e0643fca" prot="public" virt="non-virtual"><scope>StopWatch</scope><name>startClock</name></member>
+      <member refid="classStopWatch_1ad715945060eeb23baa3c036ad19b1edb" prot="public" virt="non-virtual"><scope>StopWatch</scope><name>StopWatch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
